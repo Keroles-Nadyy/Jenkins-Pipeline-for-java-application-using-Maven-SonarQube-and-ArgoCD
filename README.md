@@ -68,6 +68,29 @@ http://<ec2-instance-public-ip>:8080/restart
 ```
 Wait for the Jenkins to be restarted.
 
+### Install SonarQube locally
+```
+sudo apt install unzip
+sudo su 
+adduser sonarqube
+sudo su - sonarqube
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-26.3.0.120487.zip
+unzip *
+chmod -R 755 /home/sonarqube/sonarqube-26.3.0.120487
+chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-26.3.0.120487
+cd sonarqube-26.3.0.120487/bin/linux-x86-64/
+./sonar.sh start
+```
+### Login to SonarQube using the below URL:
+
+http://<ec2-instance-public-ip-address>:9000
+
+### Prepare Jenkins creds
+- Docker hub username/password
+- Github
+- SonarQube token
+<img width="1881" height="477" alt="image" src="https://github.com/user-attachments/assets/ec5160a0-cf73-49c9-9c45-e0689235d94f" />
+
 
 ## Docker Slave Configuration
 
