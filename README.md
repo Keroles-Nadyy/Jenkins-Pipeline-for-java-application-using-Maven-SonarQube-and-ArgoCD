@@ -91,14 +91,13 @@ http://<ec2-instance-public-ip-address>:9000
 - SonarQube token
 <img width="1881" height="477" alt="image" src="https://github.com/user-attachments/assets/ec5160a0-cf73-49c9-9c45-e0689235d94f" />
 
-
 ## Docker Slave Configuration
 
 Run the below command to Install Docker
 
 ```
 sudo apt update
-sudo apt install docker.io
+sudo apt install docker.io -y
 ```
  
 ### Grant Jenkins user and Ubuntu user permission to docker deamon.
@@ -110,13 +109,14 @@ usermod -aG docker ubuntu
 systemctl restart docker
 ```
 
-Once you are done with the above steps, it is better to restart Jenkins.
-
-```
-http://<ec2-instance-public-ip>:8080/restart
-```
-
 The docker agent configuration is now successful.
+
+## Back to Jenkins
+create a pipeline 
+<img width="1881" height="871" alt="image" src="https://github.com/user-attachments/assets/43520b55-19d5-43df-8d9b-8b94c1b7fcf3" />
+
+Run the pipeline
+<img width="1881" height="351" alt="image" src="https://github.com/user-attachments/assets/d0ac6d02-db5d-4c0a-94d5-534b5750bac9" />
 
 
 
