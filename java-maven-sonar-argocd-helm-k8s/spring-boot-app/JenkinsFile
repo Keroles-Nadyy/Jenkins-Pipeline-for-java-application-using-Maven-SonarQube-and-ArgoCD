@@ -58,6 +58,12 @@ pipeline {
                     pwd
                     ls -al
                     echo "=================================================================="
+                    echo "======================== Debug ==================================="
+                    git rev-parse --is-inside-work-tree
+                    ls -al .git
+                    cat .git/config
+                    git status
+                    echo "=================================================================="
                     git config user.email "keroles_N@outlook.com"
                     git config user.name "Keroles-Nadyy"
                     BUILD_NUMBER=${BUILD_NUMBER}
