@@ -119,5 +119,18 @@ Run the pipeline
 <img width="1881" height="351" alt="image" src="https://github.com/user-attachments/assets/d0ac6d02-db5d-4c0a-94d5-534b5750bac9" />
 
 
+## On ArgoCD
+Create new App:
+<img width="1881" height="871" alt="image" src="https://github.com/user-attachments/assets/bdba0fbd-5470-4430-be7c-7d539598ff06" />
+<img width="1881" height="871" alt="image" src="https://github.com/user-attachments/assets/81a8d99f-768a-47aa-8847-345dd78b8429" />
+
+Then **Create**
+<img width="1881" height="871" alt="image" src="https://github.com/user-attachments/assets/3537a6f1-166d-4322-9d45-ee61c6668e96" />
+<img width="1881" height="336" alt="image" src="https://github.com/user-attachments/assets/dc8197d1-0a3f-48e3-98c5-326796214186" />
+
+## Finally
+<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/29938442-3312-42ae-9077-78acb92d502c" />
+
+
 
 
