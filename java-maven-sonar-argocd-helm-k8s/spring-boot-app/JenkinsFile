@@ -58,6 +58,7 @@ pipeline {
                     pwd
                     ls -al
                     echo "=================================================================="
+                    git config --global --add safe.directory '*'
                     echo "======================== Debug ==================================="
                     git rev-parse --is-inside-work-tree
                     ls -al .git
